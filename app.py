@@ -14,6 +14,8 @@ model_path = os.path.join(base_dir, 'model_files', 'model.pkl')
 tf_idf = pickle.load(open(vectorizer_path, 'rb'))
 model = pickle.load(open(model_path, 'rb'))
 
+nltk.download('stopwords')
+
 stemmer = PorterStemmer()
 punctuations = string.punctuation
 stop_words = stopwords.words('english')
