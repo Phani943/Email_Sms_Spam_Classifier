@@ -5,8 +5,8 @@ import streamlit as st
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-tf_idf = pickle.load(open('models/vectorizer.pkl', 'rb'))
-model = pickle.load(open('models/model.pkl', 'rb'))
+tf_idf = pickle.load(open('model_files/vectorizer.pkl', 'rb'))
+model = pickle.load(open('model_files/model.pkl', 'rb'))
 
 stemmer = PorterStemmer()
 punctuations = string.punctuation
