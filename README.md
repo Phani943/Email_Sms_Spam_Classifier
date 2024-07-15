@@ -54,5 +54,4 @@ The `spam.csv` file contains the labeled messages used for training. Each messag
 
 ## Acknowledgements
 
-- The dataset used in this project is sourced from the
-- [Kaggle/UCI Machine Learning](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset).
+- The dataset used in this project is sourced from the [Kaggle/UCI Machine Learning](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset).
