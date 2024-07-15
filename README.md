@@ -1,6 +1,6 @@
 # Email and SMS Spam Classifier
 
-This project aims to classify emails and SMS messages as spam or not spam using machine learning techniques.
+This project aims to classify emails and SMS messages as spam or not spam using machine learning and nlp techniques.
 
 ## Features
 
